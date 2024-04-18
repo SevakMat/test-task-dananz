@@ -1,0 +1,28 @@
+.Input {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-bottom: 1px solid #141414;
+}
+
+.InputInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.InputInner > input {
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    padding: 13px 9px;
+}
+
+.InputInner > input::placeholder {
+    color: #D9D9D9;
+}
+
+.InputInner > svg {
+    cursor: pointer;
+}

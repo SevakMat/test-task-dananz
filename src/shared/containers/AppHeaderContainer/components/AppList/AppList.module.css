@@ -1,0 +1,48 @@
+.AppList {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+@media only screen and (max-width: 992px){
+    .AppList {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: clamp(1.875rem, -0.5859rem + 8.2031vw, 4.5rem);
+    }
+}
+
+.AppListItem a {
+    color: #333333;
+    white-space: nowrap;
+}
+
+.AppListItem:last-of-type a {
+    color: #FFFFFF;
+}
+
+.AppListItem a:hover {
+    text-shadow: 0 0 1px rgba(0,0,0,0.6);
+}
+
+.AppListItem:last-of-type a:hover {
+    color: #FFFFFF;
+}
+
+.AppListItemContact {
+    padding: 14px 32px;
+    background: #2C3878;
+    border: 1px solid #3C3C3C;
+}
+
+.AppListItemContact:hover {
+    background: #6d7bd2;
+}
+
+.isActive a {
+    font-weight: 600;
+}

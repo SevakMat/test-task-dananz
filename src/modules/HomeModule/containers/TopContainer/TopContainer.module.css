@@ -1,0 +1,24 @@
+.TopContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.TopContainer > h1 {
+    font-size: clamp(2rem, 1rem + 3.3333vw, 3.5rem);
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.TopContainer > p {
+    max-width: 518px;
+    font-size: clamp(0.875rem, 0.7083rem + 0.5556vw, 1.125rem);
+    text-align: center;
+}
+
+.TopContainer > img {
+    width: 100%;
+}

@@ -1,0 +1,60 @@
+.DescContainerWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.DescContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.DescContainerItems {
+    flex: 1 1 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.DescContainerItems > h4 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.DescContainerItems > p {
+    flex: 1 1 auto;
+    color: #9C9C9C;
+    font-size: 18px;
+}
+
+.DescContainerItemsTime {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    color: #9C9C9C;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.ImageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.ImageContainer img {
+    width: 100%;
+}
+
+.ImageContainerDouble {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.ImageContainerDouble > div {
+    flex: 1 1 250px;
+}
